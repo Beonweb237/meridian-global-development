@@ -276,6 +276,15 @@ export default function Footer() {
                 {label}
               </Link>
             ))}
+            <a
+              href="https://www.beonweb.cm/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs transition-colors hover:text-[var(--medium-blue)]"
+              style={{ color: 'var(--text-muted)' }}
+            >
+              Powered by Beonweb
+            </a>
           </div>
         </div>
       </div>
